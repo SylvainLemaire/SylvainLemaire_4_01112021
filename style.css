@@ -370,6 +370,10 @@ a:hover {
     margin-top: 8px;
 }
 
+.text-margin {
+    margin-bottom: 75px;
+}
+
 /**************************/
 @media (min-width: 768px) {
     .site-navigation {
