@@ -380,7 +380,7 @@ a:hover {
 }
 
 .margin-icon {
-    margin: 5px 0 50px 0;
+    margin-top: 5px;
 }
 
 .fa-twitter,
@@ -390,6 +390,10 @@ a:hover {
 
 .fa-instagram {
     margin-left: 3vw;
+}
+
+.margin-top {
+    margin-top: 50px;
 }
 
 /**************************/
