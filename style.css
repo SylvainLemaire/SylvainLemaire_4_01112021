@@ -374,6 +374,24 @@ a:hover {
     margin-bottom: 75px;
 }
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-icon {
+    margin: 5px 0 50px 0;
+}
+
+.fa-twitter,
+.fa-facebook {
+    margin-right: 3vw;
+}
+
+.fa-instagram {
+    margin-left: 3vw;
+}
+
 /**************************/
 @media (min-width: 768px) {
     .site-navigation {
