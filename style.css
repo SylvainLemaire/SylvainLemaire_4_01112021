@@ -362,12 +362,41 @@ a:hover {
     z-index: 2;
 }
 
+/**************************/
+
 .col-sm-4 ul li {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 8px;
 }
 
+.text-margin {
+    margin-bottom: 75px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-icon {
+    margin-top: 5px;
+}
+
+.fa-twitter,
+.fa-facebook {
+    margin-right: 3vw;
+}
+
+.fa-instagram {
+    margin-left: 3vw;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+/**************************/
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -684,7 +713,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
