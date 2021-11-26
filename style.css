@@ -396,6 +396,22 @@ a:hover {
     margin-top: 50px;
 }
 
+.style-size {
+    font-style: italic;
+    font-size: 21px;
+    margin: 0;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.text-padding {
+    padding: 0 150px;
+}
+
+
+
 /**************************/
 @media (min-width: 768px) {
     .site-navigation {
