@@ -404,6 +404,7 @@ a:hover {
 
 .normal {
     font-style: normal;
+    color: hsl(0, 0%, 14%);
 }
 
 .text-padding {
