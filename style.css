@@ -370,28 +370,6 @@ a:hover {
     margin-top: 8px;
 }
 
-.text-margin {
-    margin-bottom: 75px;
-}
-
-.flex-between {
-    display: flex;
-    justify-content: space-between;
-}
-
-.margin-icon {
-    margin-top: 5px;
-}
-
-.fa-twitter,
-.fa-facebook {
-    margin-right: 3vw;
-}
-
-.fa-instagram {
-    margin-left: 3vw;
-}
-
 .margin-top {
     margin-top: 50px;
 }
@@ -407,11 +385,13 @@ a:hover {
     color: hsl(0, 0%, 14%);
 }
 
-.text-padding {
+.text-padding-b2 {
     padding: 0 150px;
 }
 
-
+.text-padding-b4 {
+    padding: 0 300px;
+}
 
 /**************************/
 @media (min-width: 768px) {
