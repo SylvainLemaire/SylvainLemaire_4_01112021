@@ -370,30 +370,27 @@ a:hover {
     margin-top: 8px;
 }
 
-.text-margin {
-    margin-bottom: 75px;
-}
-
-.flex-between {
-    display: flex;
-    justify-content: space-between;
-}
-
-.margin-icon {
-    margin-top: 5px;
-}
-
-.fa-twitter,
-.fa-facebook {
-    margin-right: 3vw;
-}
-
-.fa-instagram {
-    margin-left: 3vw;
-}
-
 .margin-top {
     margin-top: 50px;
+}
+
+.style-size {
+    font-style: italic;
+    font-size: 21px;
+    margin: 0;
+}
+
+.normal {
+    font-style: normal;
+    color: hsl(0, 0%, 14%);
+}
+
+.text-padding-b2 {
+    padding: 0 150px;
+}
+
+.text-padding-b4 {
+    padding: 0 300px;
 }
 
 /**************************/
@@ -854,7 +851,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
