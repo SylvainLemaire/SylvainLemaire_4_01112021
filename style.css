@@ -374,23 +374,15 @@ a:hover {
     margin-top: 50px;
 }
 
-.style-size {
+.style-italic {
     font-style: italic;
     font-size: 21px;
     margin: 0;
 }
 
-.normal {
+.style-normal {
     font-style: normal;
     color: hsl(0, 0%, 14%);
-}
-
-.text-padding-b2 {
-    padding: 0 150px;
-}
-
-.text-padding-b4 {
-    padding: 0 300px;
 }
 
 /**************************/
@@ -735,6 +727,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    list-style: none;
+    padding: 0;
 }
 
 h2 {
