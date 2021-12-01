@@ -385,14 +385,6 @@ a:hover {
     color: hsl(0, 0%, 14%);
 }
 
-.text-padding-b2 {
-    padding: 0 150px;
-}
-
-.text-padding-b4 {
-    padding: 0 300px;
-}
-
 /**************************/
 @media (min-width: 768px) {
     .site-navigation {
