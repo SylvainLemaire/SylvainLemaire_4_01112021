@@ -735,6 +735,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    list-style: none;
+    padding: 0;
 }
 
 h2 {
