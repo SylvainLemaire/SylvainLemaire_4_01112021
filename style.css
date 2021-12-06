@@ -370,22 +370,8 @@ a:hover {
     margin-top: 8px;
 }
 
-.margin-top {
-    margin-top: 50px;
-}
-
-.style-italic {
-    font-style: italic;
-    font-size: 21px;
-    margin: 0;
-}
-
-.style-normal {
-    font-style: normal;
-    color: hsl(0, 0%, 14%);
-}
-
 /**************************/
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -764,10 +750,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-}
-
-.black {
-    color: hsl(0, 0%, 14%);
 }
 
 .portfolio-thumb {
