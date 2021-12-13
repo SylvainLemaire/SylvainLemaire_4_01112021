@@ -14,7 +14,7 @@
 		<link rel="preload" href="./css/et-line.min.css" as="style">
 		<link rel="preload" href="./css/font-awesome.min.css" as="style">
 		<link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" as="style">
-		<link rel="preload" href="style.css" as="style">
+		<link rel="preload" href="./css/style.css" as="style">
 
 		<meta name="description" content="La chouette agence, une grande et excellente agence de web design 
 		basée à Lyon qui aide les entreprises locales à devenir attractives et visibles sur internet">
@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="./css/et-line.min.css">
 		<link rel="stylesheet" href="./css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<!-- Head END -->
 
@@ -82,32 +82,30 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
-								<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-									<div class="form-group">
+								<form id="form_1" novalidate>
+									<fieldset class="form-group">
 										<label for="name">Nom</label>
 										<input id="name" class="form-control" required>
-									</div>
-									<div class="form-group">
-										<label for="email">Adresse email</label>
+
+										<label for="email" style="margin-top: 8px">Adresse email</label>
 										<input id="email" class="form-control" type="email" required>
-									</div>
-									<div class="form-group">
-										<label for="info">Comment nous avez-vous connu ?</label>
-										<input id="info" class="form-control" type="email" required id="input_504">
-									</div>
-									<div class="form-group">
-										<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+
+										<label for="input_504" style="margin-top: 8px">Comment nous avez-vous connu ?</label>
+										<input class="form-control" type="email" required id="input_504">
+
+										<label for="message" style="margin-top: 8px">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
 										<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-									</div> 
+									</fieldset> 
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 										Envoyer
 									</button>
 								</form>
 							</div>
 							<div class="col-sm-6">
-								<p>
-									contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-								</p>
+								<address style="margin-left: 5px">
+									<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>
+									2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+								</address>
 							</div>
 						</div>
 					</div>
@@ -127,7 +125,7 @@
 				<div class="container bloc-sm">
 					<div class="row">
 						<div class="col-sm-12">
-							<h2 class="text-center">
+							<h2 class="text-center" style="font-size: small; font-weight: bold;">
 								La chouette agence - Agence web basée à Lyon
 							</h2>
 							<ul class="row row-no-gutters social text-center">
